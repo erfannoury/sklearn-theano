@@ -1,5 +1,5 @@
 from skimage.data import coffee, camera
-from sklearn_theano.feature_extraction.caffe.googlenet import (
+from sklearn_theano.feature_extraction.caffe.vggcnns import (
     VGGCNNSTransformer, VGGCNNSClassifier)
 import numpy as np
 from nose import SkipTest
