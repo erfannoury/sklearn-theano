@@ -5,7 +5,7 @@
 
 from sklearn.externals import joblib
 from sklearn_theano.datasets import get_dataset_dir, download
-from caffemodel import _parse_caffe_model, parse_caffe_model
+from sklearn_theano.models.vgg_cnn_s.caffemodel import _parse_caffe_model, parse_caffe_model
 import os
 from sklearn_theano.utils import check_tensor
 from sklearn_theano.feature_extraction.overfeat import get_overfeat_class_label
